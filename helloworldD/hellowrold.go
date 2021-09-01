@@ -1,9 +1,9 @@
 package helloworldD
 
 import "fmt"
-import helloworldd "github.com/luzejia/go-mod-test-d/helloworld"
+import "github.com/luzejia/go-mod-test-d/helloworld"
 
 func HelloWorldD() {
     fmt.Println("I am b, I call on helloworld d")
-    helloworldd.HelloWorld()
+    helloworld.HelloWorld()
 }
