@@ -1,14 +1,11 @@
 package main
 
-// import "github.com/luzejia/go-mod-test-b/helloworld"
-import helloworldC  "github.com/luzejia/go-mod-test-c/helloworld"
-import helloworldD  "github.com/luzejia/go-mod-test-d/helloworld"
+import helloworldc "github.com/luzejia/go-mod-test-b/helloworldC"
+import helloworldd "github.com/luzejia/go-mod-test-b/helloworldD"
 
 func main() {
-	// helloworld.HelloWorldC()
-	// helloworld.HelloWorldD()
-        helloworldC.HelloWorld()
-        helloworldD.HelloWorld()
+    helloworldc.HelloWorldC()
+    helloworldd.HelloWorldD()
 }
 
 
